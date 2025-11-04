@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Experimentos - Laboratorio Digital</title>
+  <link rel="stylesheet" href="guia.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #f7f9fc;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      background: #004aad;
+      color: white;
+      padding: 30px 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      padding: 30px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .fila {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 20px;
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .fila:hover {
+      transform: translateY(-3px);
+    }
+
+    .columna {
+      flex: 1;
+      min-width: 45%;
+    }
+
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    h3 {
+      color: #004aad;
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .fila {
+        flex-direction: column;
+      }
+      iframe {
+        height: 300px;
+      }
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #004aad;
+      color: white;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🧪 EXPERIMENTOS</h1>
+    <p>Teoría y práctica del Laboratorio Digital</p>
+  </header>
+
+  <main>
+    <div class="fila">
+      <div class="columna">
+        <h3>Obtención del H₂ y O₂ - Igualación de ecuaciones</h3>
+        <iframe src="obtencion del h y o.pdf"></iframe>
+      </div>
+      <div class="columna">
+        <h3>Video: Obtención del H₂ y O₂</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wlAU0zReIRY?si=G5nSUehPwFHyNJdh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="fila">
+      <div class="columna">
+        <h3>Descomposición térmica del bicarbonato del sodio - Ley de conservación de la masa</h3>
+        <iframe src="Descomposición térmica.pdf"></iframe>
+      </div>
+      <div class="columna">
+        <h3>Video: Descomposición térmica del bicarbonato del sodio</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/X6edhKFHrI0?si=zoJ8SU7TnJ_d35b2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="fila">
+      <div class="columna">
+        <h3>Descomposición térmica del bicarbonato de sodio - Leyes ponderales</h3>
+        <iframe src="Formación del óxido de cobre.pdf"></iframe>
+      </div>
+      <div class="columna">
+        <h3>Video: Formación del óxido de cobre</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Wvw4JROWeLc?si=vatWOeErUNdqRhex" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="fila">
+      <div class="columna">
+        <h3>Determinación de la relación estequiométrica entre el magnesio y oxígeno</h3>
+        <iframe src="Determinación.pdf"></iframe>
+      </div>
+      <div class="columna">
+        <h3>Video: Relación estequiométrica entre el magnesio y oxígeno</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nEai7gVbUFE?si=Ryl_A-aOH2m4Zoln" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
